@@ -10,7 +10,7 @@ pipeline {
         stage('PR check') {
             steps {
                     sh '''
-                        echo "work on Pull Request"
+                        echo "Trigger a Pull Request"
                         sleep 30s
                        '''
             }

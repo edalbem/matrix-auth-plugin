@@ -11,7 +11,7 @@ pipeline {
             steps {
                     sh '''
                         echo "Trigger a Pull Request"
-                        sleep 30s
+                        sleep 10s
                        '''
             }
         }
